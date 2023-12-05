@@ -1,0 +1,56 @@
+/* styling for the entire body of dropdown app */
+.body {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling the dropdown container */
+.dropdownBox {
+  width: 40%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* styling for the dropdown switch heading */
+.heading {
+  width: 40%;
+  height: 30%;
+  margin-top: 30px;
+  background-color: aqua;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* styling for the list of options */
+.dropdown {
+  width: 40%;
+  height: 60%;
+  margin-top: 5px;
+  color: white;
+}
+
+/* styling for the single option */
+.options {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(66, 96, 243);
+  border: 1px solid white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
